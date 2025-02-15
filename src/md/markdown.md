@@ -238,7 +238,7 @@
   > ```
 
 - 해당문서에 직접 작성되며 활용된 모습이다.
-  ![코드박스 예시이미지](../src/assets/images/eximage.jpg)
+  ![코드박스 예시이미지](../assets/images/eximage.jpg)
 
 - 코드박스에 다양한 언어를 삽입할 수 있는데, 다양한 언어를 삽입하기위한 마크다운 언어 표현 방식은 아래와 같다.<br>
 
@@ -261,7 +261,7 @@
 ```
 
 - 예시<br>
-  > ![부끄러워 하는 강사장](../src/assets/images/kangsajang.png)
+  > ![부끄러워 하는 강사장](../assets/images/kangsajang.png)
 
 ---
 
