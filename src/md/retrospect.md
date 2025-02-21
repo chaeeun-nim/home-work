@@ -12,24 +12,26 @@
 
 ## 목차
 
-1. [**KPT 회고**](#kpt-회고)
-   - [Keep(유지할점)](#keep유지할점)
-   - [Problem(문제점)](#problem문제점)
-   - [Try(시도할점)](#try시도할점)
-2. [**4L 회고**](#4l-회고)
+1. ### 2025년 2월 3주차
 
-   - [Like(좋았던 점)](#like좋았던-점)
-   - [Learnd(배운 점)](#learnd배운-점)
-   - [Lacked(부족했던 점)](#lacked부족했던-점)
-   - [Longed for(바라는 점)](#longed-for바라는-점)
+   1. [**KPT 회고**](#kpt-회고)
+      - [Keep(유지할점)](#keep유지할점)
+      - [Problem(문제점)](#problem문제점)
+      - [Try(시도할점)](#try시도할점)
+   2. [**4L 회고**](#4l-회고)
 
-3. [**5F 회고**](#5f-회고)
-   - [Facts(사실)](#facts사실)
-   - [Feeling(느낌)](#feeling느낌)
-   - [Finding(발견)](#finding발견)
-   - [Future Actions(향후 행동)](#future-actions향후-행동)
-   - [Feedback (피드백)](#feedback-피드백)
-4. [**결론**](#결론)
+      - [Like(좋았던 점)](#like좋았던-점)
+      - [Learnd(배운 점)](#learnd배운-점)
+      - [Lacked(부족했던 점)](#lacked부족했던-점)
+      - [Longed for(바라는 점)](#longed-for바라는-점)
+
+   3. [**5F 회고**](#5f-회고)
+      - [Facts(사실)](#facts사실)
+      - [Feeling(느낌)](#feeling느낌)
+      - [Finding(발견)](#finding발견)
+      - [Future Actions(향후 행동)](#future-actions향후-행동)
+      - [Feedback (피드백)](#feedback-피드백)
+   4. [**결론**](#결론)
 
 ---
 

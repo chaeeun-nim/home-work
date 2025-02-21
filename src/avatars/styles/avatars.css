@@ -1,0 +1,64 @@
+/* 여기에 스타일을 구현해 주세요 */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+body {
+  background-color: #f7f7f7;
+}
+.headline{
+  font-size: 24px;
+  text-align: center;
+  margin: 100px 0 36px 0;
+  text-transform: uppercase;
+  font-family: 'SUIT';
+  font-weight: 900;
+  color: #121212;
+}
+.ul-wrap{
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 600px;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 10px auto;
+}
+.li-wrap{
+  text-align: center;
+}
+.face-state{
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  list-style-type: none;
+}
+.face{
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  border: 1px solid #fff;
+}
+.off {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #bdbdbd;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+.online {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #4cfe88;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
