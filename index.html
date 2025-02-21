@@ -29,7 +29,6 @@
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        margin-bottom: 1.5rem;
         object-fit: cover;
         border: 5px solid #f0f0f0;
       }
@@ -38,13 +37,13 @@
         font-size: 1.5rem;
         font-weight: bold;
         color: #333;
-        margin-bottom: 0.5rem;
+        margin-bottom: .375rem;
       }
 
       .bio {
         color: #666;
         line-height: 1.6;
-        margin-bottom: 1.5rem;
+        /* margin-bottom: rem; */
       }
 
       .homework-links {
@@ -65,6 +64,14 @@
       .homework-links a:hover {
         color: #007bff;
       }
+      h2, p{
+  margin: 0;
+}
+h2{
+  margin-top: 1rem;
+  margin-bottom: .25rem;
+  font-size: 1.25rem;
+}
     </style>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
@@ -83,11 +90,17 @@
         class="profile-image"
       />
       <h1 class="name">송채은</h1>
-      <p class="bio">멋쟁이 사자처럼 프론트엔드 부트캠프 13기 송채은 입니다.</p>
-      <p>과제 결과는 링크를 선택해주세요.</p>
+      <p class="bio">하루가 다르게 성장하는 송채은 입니다.</p>
+      <!-- <p>과제 결과는 링크를 선택해주세요.</p> -->
+      <h2>멋사 회고록</h2>
       <ul class="homework-links">
+        <li><a href="./src/md/retrospect.md">회고&#40;1,2주차&#41;</a></li>
+          <li><a href="./src/avatars/avatars.md">회고&#40;3주차&#41;</a></li>
+          </ul>
+          
+          <h2>멋사 과제링크</h2>
+          <ul class="homework-links">
         <li><a href="./src/md/markdown.md">마크다운 문법</a></li>
-        <li><a href="./src/md/retrospect.md">회고</a</li>
         <li><a href="./src/avatars/avatars.html">Avatars</a</li>
       </ul>
     </div>
