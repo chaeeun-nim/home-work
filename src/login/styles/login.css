@@ -90,10 +90,16 @@ body{
     border: .0625rem solid var(--color-gray-10);
     padding: var(--login-input-text-padding);
     font-size: var(--login-input-font-size);
-    color: var(--login-input-font-color);
+    color: var(--color-black-01);
     font-weight: var(--login-input-font-weight);
     line-height: 21px;
     border-radius: 0;
+  }
+  input[type="email"]::placeholder{
+    color: var(--login-input-font-color);
+  }
+  input[type="passward"]::placeholder{
+    color: var(--login-input-font-color);
   }
 
   .login-btn{
@@ -127,6 +133,18 @@ body{
     border-radius: 0;
   }
  
+  .warning-text{
+    color: var(--color-warning);
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-400);
+    margin-top: .4375rem;
+
+  }
+  input:placeholder-shown + .warning-text
+  { display: none; }
+  input:user-invalid + .warning-text
+  { display: block;}
+
   
 
   #logining[type="checkbox"] {

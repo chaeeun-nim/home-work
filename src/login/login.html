@@ -22,22 +22,24 @@
       <form action="#" class="login-form">
         <div class="input-wrapper">
           <label for="user-id" class="sr-only">사용자 아이디</label>
-          <input type="text" id="user-id" class="id" required min="1" placeholder="아이디" autocomplete="off"/>
+          <input type="email" id="user-id" class="id" required placeholder="아이디" autocomplete="off"/>
+          <div class="warning-text">아이디는 이메일을 입력해 주세요</div>
         </div>
         <div class="input-wrapper">
           <label for="user-pw" class="sr-only" >사용자 비밀번호</label>
-          <input type="password" id="user-pw" class="pw" required placeholder="비밀번호" autocomplete="off"/>
+          <input type="password" id="user-pw" class="pw" minlength="10" autocomplete="off" required placeholder="비밀번호" autocomplete="off"/>
+          <div class="warning-text">비밀번호는 10자리 이상 입력해 주세요</div>
         </div>
         <button type="submit" class="login-btn">로그인</button>
         <div class="additional-btn">
           <div class="btn-wrapper">
-            <input type="checkbox" id="logining"></input>
+            <input type="checkbox" id="logining">
             <label for="logining">
               로그인 상태 유지</label>
           </div>
           <div class="pc-only ip-btn">
-            <a href="./pages/ip_security.html" target="_blank">IP 보안</a>
-            <input type="checkbox" class="onoff-btn">
+            <a href="./pages/ip_security.html" target="_blank" rel="noopener noreferrer" >IP 보안</a>
+            <input id="onoff" type="checkbox" class="onoff-btn">
             <label for="onoff" class="sr-only">IP보안 전원</label>
           </div>
         </div>
