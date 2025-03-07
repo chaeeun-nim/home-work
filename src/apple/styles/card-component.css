@@ -1,3 +1,174 @@
 @import "./reset.css";
 @import "./theme.css";
 @import "./base.css";
+
+:root{
+  --main-color:var(--white);
+  --sub-color:var(--white);
+  --point-color:var(--blue-400);
+
+  --header-size:var(--large-text);
+  --sub-size:var(--base-text);
+  --btn-size:var(--xx-small-text);
+
+  --title-top-padding:var(--large-spacing);
+  
+  
+  /* 반응형에 따른 폰트사이즈 조절, pc버전 사이즈삽입 */
+  @media screen and (min-width:1024px){
+    --header-size:var(--extra-large-text);
+    --sub-size:var(--base-text);
+    --btn-size:var(--x-small-text);
+    --title-top-padding:var(--extra-large-spacing);
+  }
+
+}
+
+
+
+/* 와이드 확장카드 */
+.card{
+  width: 100%;
+  inline-size: 100%;
+  height: var(--size);
+  block-size: var(--size);
+  container-type: inline-size;
+
+  @media screen and (min-width:1024px){
+    height: 37.5rem;
+    block-size: 37.5rem;
+  }
+
+  color: var(--main-color);
+
+  /* 정렬 */
+  display: flex;
+  flex-flow: column nowrap;
+  place-items: center flex-start;
+  row-gap: var(--small-spacing);
+
+  /* 카드 타이틀 */
+  .card-title{
+    color: inherit;
+    font-size: var(--header-size);
+    font-weight: 700;
+    padding-top: var(--title-top-padding);
+  }
+
+  /* 부제목 */
+  .subtitle{
+    color: inherit;
+    font-size: var(--sub-size);
+    font-weight: 300;
+    display: flex;
+    flex-flow: column nowrap;
+    place-items: center start;
+    column-gap:var(--x-small-spacing);
+    line-height: var(--line-normal);
+
+    @container (min-width:600px){
+      flex-flow: row nowrap;
+    }
+
+  }
+
+  /* 출시일 */
+  .card-date{
+    font-size: var(--small-text);
+    color: var(--gray);
+  }
+
+/* 버튼스타일링 */
+.btn-wrapper{
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: var(--base-spacing);
+
+  .link{
+    display: inline-block;
+    padding: var(--x-small-spacing) var(--small-spacing);
+    font-size: var(--btn-size);
+    border-radius: 2rem;
+  }
+  .btn1{
+    color: var(--sub-color);
+    background-color: var(--point-color);
+    border: 1px solid var(--point-color);
+  }
+  .btn2{
+    color: var(--point-color);
+    border: 1px solid var(--point-color);
+  }
+ }
+
+
+}
+
+.wide > .subtitle{
+  @container (min-width:600px){
+    flex-flow: column nowrap;
+  }
+}
+
+.white-theme{
+  --main-color:var(--black);
+  --sub-color:var(--white);
+  --point-color:var(--black);
+ 
+}
+.ipad-pro{
+  background: image-set(
+    url(../products/ipad_pro.jpeg) 1x,
+    url(../products/ipad_pro_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  
+  @media screen and (min-width:1024px){
+    background: image-set(
+      url(../products/ipad_pro_wide.jpeg) 1x,
+      url(../products/ipad_pro_wide_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  }
+}
+.ipad-air{
+  background: image-set(
+    url(../products/ipad_air.jpeg) 1x,
+    url(../products/ipad_air_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  
+  @media screen and (min-width:1024px){
+    background: image-set(
+      url(../products/ipad_air_wide.jpeg) 1x,
+      url(../products/ipad_air_wide_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  }
+}
+
+.iphone15-pro{
+  background: image-set(
+    url(../products/iphone15_pro.jpeg) 1x,
+    url(../products/iphone15_pro_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  
+  @media screen and (min-width:1024px){
+    background: image-set(
+      url(../products/iphone15_pro_wide.jpeg) 1x,
+      url(../products/iphone15_pro_wide_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  }
+}
+.iphone15{
+  background: image-set(
+    url(../products/iphone15.jpeg) 1x,
+    url(../products/iphone15_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+}
+.watch{
+  background: image-set(
+    url(../products/apple_watch.jpeg) 1x,
+    url(../products/apple_watch_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+}
+
+.macbook-air{
+  background: image-set(
+    url(../products/macbook_air.jpeg) 1x,
+    url(../products/macbook_air_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+  
+}
+.airpods-pro{
+  background: image-set(
+    url(../products/airpods_pro.jpeg) 1x,
+    url(../products/airpods_pro_2x.jpeg) 2x) no-repeat 50% 50%/cover;
+}
