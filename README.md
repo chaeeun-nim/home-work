@@ -13,3 +13,15 @@
 
 - [SNS 상태리스트](./src/avatars/avatars.html)
 - [회고](./src/avatars/avatars.md)
+
+## 3월 1주차 과제 - 네이버 로그인
+- [로그인-html](./src/login/login.html)
+- [로그인-css](./src/login/styles/login.css)
+- [회고](./src/login/login.md)
+
+## 3월 2주차 과제 - 애플메인
+- [애플컴포넌트-html](./src/apple/card-component.html)
+- [애플컴포넌트-css](./src/apple/styles/card-component.css)
+- [애플메인-html](./src/apple/apple.html)
+- [애플메인-css](./src/apple/styles/apple.css)
+- [회고](./src/apple/apple.md)
